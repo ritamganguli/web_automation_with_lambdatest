@@ -6,10 +6,10 @@ from selenium.webdriver.common.by import By
 
 
 # Username: Can be found at the automation dashboard
-username = "*************"
-password = "*************"
+username = "ritamg"
+password = "*****"
 # AccessToken: Can be generated from the automation dashboard or profile section
-accessToken = "************"
+accessToken ="lHWNSA0QECwjeN8DoDb9U6KyXMBgAFXqlIIArkxeOTDSeEdLyG"
 gridUrl = "hub.lambdatest.com/wd/hub"
 
 #Generate your capabilities from lambdatest capability generator and select selenium version 3 or 4
