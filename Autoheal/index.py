@@ -28,6 +28,7 @@ def run_automation_script(row):
     # lt_options["username"] = "utkarshs"
     # lt_options["accessKey"] = "URepF67q3TohDB8lP8SrqlWGOPVyXbV2NBcx2nESEJj2S6hKC1"
     lt_options["project"] = "Parallel1"
+    lt_options["build"]= os.getenv("LT_Build_Name")
     lt_options["selenium_version"] = "4.0.0"
     lt_options["w3c"] = True
     url = "https://"+username+":"+access_key+"@"+grid_Url
